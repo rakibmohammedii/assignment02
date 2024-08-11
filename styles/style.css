@@ -295,44 +295,79 @@ main{
 
 /* Training pictures design */
 
-.training-pic{
-    width: 1060px;
-    height: 580px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr); 
+
+
+/* 
+BMI section design */
+.bmih2p{
+    margin: 88px 280px;
+}
+.bmih2,.bmip{
+    text-align: justify;
+    
+}
+
+
+
+
+/* footer styles */
+.footer{
+    padding: 0 30px ;
+   
+}
+.footer-title{
+    font-weight: 800;
+    font-size: 5rem;
+    color: rgb(230, 83, 60);
+    width: 256px;
+    margin-bottom: 20px;
+}
+.footerdes{
+    width: 456px;
+    text-align: justify;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+   
+    align-items: center;
+    
 
 }
-.pic{
-    width: 100%;
-    height: 100%;
+.sec-footer{
+    display: flex;
+    gap: 160px;
 }
-.pic1{
-    width: 250px;
-    height: 200px;
+.footer-li{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    list-style: none;
+}
+.footer-get{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
 
 }
-.pic2{
-    width: 520px;
-    height: 200px;
-
+.footer-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 30px;
+   
 }
-.pic3{
-    width: 290px;
-    height: 200px;
-
+.hr{
+    margin-top: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.pic4{
-    width: 425px;
-    height: 200px;
 
-}
-.pic5{
-    width: 288px;
-    height: 200px;
-
-}
-.pic6{
-    width: 347px;
-    height: 200px;
-
+.f-footer{
+    margin-top: 88px;
+    padding: 80px 190px;
+    background: rgba(255, 255, 255, 0.1);
 }
