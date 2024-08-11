@@ -7,15 +7,44 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
     /* background: #000; */
 }
 body{
     background: #1a1a1a;
+ 
 
 }
+/* shared styles
+ */
+.titlefont{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+.desfont{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+.join-btn{
+    font-size:1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    padding:14px 40px;
+    border-radius: 42px;
+    border: 1px solid rgb(230, 83, 60);
+}
+
+/* banner styles */
 .banner{
     width: 1440px;
-    height: 715px;
+     height: 715px;
     padding: 57px 190px 0px 190px;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
 } 
@@ -98,7 +127,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     margin: 28px 0px;
 }
-.invite{
+/* .invite{
     font-size:1.1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -106,7 +135,7 @@ body{
     padding:14px 40px;
     border-radius: 42px;
     border: 1px solid rgb(230, 83, 60);
-}
+} */
 .app{
     padding: 14px 40px;
     font-size: 1.1rem;
@@ -178,3 +207,61 @@ body{
     height: 40px;
     border-radius: 50%;
 }
+/* main styles */
+main{
+    padding: 58px 190px 50px;
+    
+}
+/* .change-title{
+
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+
+} */
+/* .change-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .9rem;
+    font-weight: 400;
+    text-align: center;
+
+} */
+ .change{
+    padding: 0 290px;
+
+}
+.ex-items{
+    display: flex;
+    gap: 15px;
+
+}
+.ex-items img{
+    border-radius: 50%;
+    padding: auto;
+    height: 180px;
+    width: 270px;
+    margin-top: 58px;
+}
+.ex-items h5{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+
+}
+
+.ex-items p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+   
+
+/* Run an Extra Mile Easily
+.run-parent{
+    display: flex;
+    gap: 40px;
+    
+} */
