@@ -1,1 +1,180 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* background: #000; */
+}
+body{
+    background: #1a1a1a;
+
+}
+.banner{
+    width: 1440px;
+    height: 715px;
+    padding: 57px 190px 0px 190px;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
+} 
+.nav{
+   
+    display: flex;
+    gap: 463px;
+}
+.logo{
+    margin: 0px 10px;
+    color: rgb(230, 83, 60);
+    font-size: 2.2rem;
+    font-weight: 800;
+
+}
+.menu-items{
+   
+    display: flex;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    list-style: none;
+    
+}
+.list{
+    margin: 0px 10px;
+    padding: 8px 20px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+}
+.home{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 46px;
+    font-size: 1.1rem;
+    font-weight: 600;
+ 
+}
+.title{
+    margin: 71px 0px;
+}
+
+.title-get{
+    font-size: 78px;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    width: 520px;
+    height: 281px;
+    line-height: 120%;
+    ;
+    
+}
+.shape{
+    font-size: 155px;
+    font-weight: 400;
+    font-family: miama;
+    position: relative;
+}
+/* .title{
+    padding: 57px 190px;
+} */
+.heading{
+    display: flex;
+    gap: 250px;
+}
+.picture{ 
+     width: 350px;
+    height: 580px;
+    padding-top: 35px;
+
+}
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px 0px;
+}
+.invite{
+    font-size:1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    padding:14px 40px;
+    border-radius: 42px;
+    border: 1px solid rgb(230, 83, 60);
+}
+.app{
+    padding: 14px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    
+    border-radius: 42px;
+    border: 1px solid rgb(237, 232, 232);
+    background: transparent;
+}
+
+.box-1h2{
+    font-size:2.5rem;
+    font-weight: 900;
+}
+.free{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.box-1{
+    padding: 10px 21px 20px 21px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 63%;
+    width: 210px;
+    height: 100px;
+    position: absolute;
+    bottom: 52%;
+    color: #fff;
+
+}
+
+/* box-2 styles */
+.tutorial{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.box-2h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.box-2{
+    padding: 10px 21px 20px 21px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 40%;
+    width: 210px;
+    height: 100px;
+    position: absolute;
+    bottom:13%;
+    color: #fff;
+    display: flex;
+
+}
+.circle{
+
+    margin-top:14px;
+    margin-right: 8px;
+    background-color: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
