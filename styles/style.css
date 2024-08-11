@@ -259,9 +259,80 @@ main{
 }
    
 
-/* Run an Extra Mile Easily
+ /* Run an Extra Mile Easily */
 .run-parent{
+    padding: 41px 35px 40px 55px;
+    margin-top: 60px;
+    margin-bottom: 100px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
     
-} */
+}
+.run{
+    flex-direction: column;
+    justify-content: space-around;
+    width:450px;
+}   
+.run-parent img{
+    width: 365px;
+    height: 310px;
+    border-radius: 18px;
+}
+.runp,.runh2,.renbtn,.trainh2,.trainp{
+    margin-bottom: 30px;
+    text-align: justify;
+    
+  
+
+}
+
+/* Trainings and Exercises */
+.trainp{
+    padding-right: 48%;
+}
+
+/* Training pictures design */
+
+.training-pic{
+    width: 1060px;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
+.pic1{
+    width: 250px;
+    height: 200px;
+
+}
+.pic2{
+    width: 520px;
+    height: 200px;
+
+}
+.pic3{
+    width: 290px;
+    height: 200px;
+
+}
+.pic4{
+    width: 425px;
+    height: 200px;
+
+}
+.pic5{
+    width: 288px;
+    height: 200px;
+
+}
+.pic6{
+    width: 347px;
+    height: 200px;
+
+}
