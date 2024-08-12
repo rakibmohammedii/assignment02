@@ -299,16 +299,104 @@ main{
 
 /* 
 BMI section design */
+.bmi-form input{
+    width: 240px;
+    margin-bottom: 30px;
+}
+.bmi-calc{
+    width: 50vw;
+}
 .bmih2p{
     margin: 88px 280px;
+    justify-content: center;
 }
 .bmih2,.bmip{
     text-align: justify;
     
 }
+.bmi-main{
+    margin: 0;
+    background:rgb(34, 34, 34, .5); ;
+    width:100%;
+    height:500px;
+    margin-bottom: 88px;
+    border-radius: 15px;
+    display: flex;
+    gap: 250px;
+    justify-content: space-between;
+    padding: 50px 90px  50px ;
+}
+.chart{
+    padding: 52px auto 135px;
+    width: 316px;
+    height: 220px;
+}
+.bmi-calc{
+    
 
+}
+.main-bmi{
+    padding: 20px;
+}
+/* table design */
+.form-table{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
 
+}
+td{
+    font-weight: 400;
+    font-size: .9prem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    
+}
+th{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+table, th, td {
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+  }
+  .table{
+    margin:
+    
 
+  }
+/* Meet Our Team */
+.trainer-title{
+    margin: 60px;
+}
+.pic-trainer{
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+}
+.pic-trainer img{
+    width:325px ;
+    height: 272px;
+    border-radius: 18px;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.tpic-1h4{
+    position: relative;
+    color: #fff;
+}
+.tpic-1p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+}
+.tpic-1, img{
+    width: 100%;
+}
 
 /* footer styles */
 .footer{
